@@ -13,7 +13,7 @@ class Anagram
     new_array << new_word
 
     array.join(", ") do |word|
-      word.match
+      word.split("") == new_word.split("")
     # array.collect do |w|
     #   w.match(word)
     binding.pry
