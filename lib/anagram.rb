@@ -10,8 +10,10 @@ class Anagram
   def match(array)
     new_word = Anagram.new(new_word)
     new_array = []
+    new_array << new_word
 
     array.join(", ") do |word|
+      word.match
     # array.collect do |w|
     #   w.match(word)
     binding.pry
