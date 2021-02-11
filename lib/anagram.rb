@@ -10,8 +10,8 @@ class Anagram
   def match(array)
     new_array = []
 
-    array.sort do |annagram_word|
-      if annagram_word.split("") == word.split("")
+    array. do |annagram_word|
+      if annagram_word.split("").sort == word.split("").sort
         binding.pry
         new_array << word
         binding.pry
