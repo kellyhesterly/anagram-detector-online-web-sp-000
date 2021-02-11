@@ -11,7 +11,7 @@ class Anagram
     word = Anagram.new(word)
 
     array.collect do |w|
-      w.match?(word)
+      w.match(word)
       word
     binding.pry
     end
