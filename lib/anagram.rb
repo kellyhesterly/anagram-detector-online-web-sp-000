@@ -24,8 +24,8 @@ class Anagram
     #   word.split("") == new_array.split("")
     # array.collect do |w|
     #   w.match(word)
-    binding.pry
+    # binding.pry
   # end
-  end
+
 
 end
