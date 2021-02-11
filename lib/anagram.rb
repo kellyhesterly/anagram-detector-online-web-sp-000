@@ -11,7 +11,7 @@ class Anagram
     word = Anagram.new(word)
     new_array = []
 
-    array.join(", ").matcjh
+    array.join(", ").match
     # array.collect do |w|
     #   w.match(word)
     binding.pry
