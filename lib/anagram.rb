@@ -8,11 +8,10 @@ class Anagram
   end
 
   def match(array)
-    new_word = Anagram.new(new_word)
     new_array = []
 
-    array.collect do |word|
-      if word.split("") == new_word.split("")
+    array.collect do |annagram_word|
+      if annagram_word.split("") == word.split("")
         new_array << word
       else
         new_array
