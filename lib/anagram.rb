@@ -14,7 +14,7 @@ class Anagram
       if annagram_word.split("") == word.split("")
         new_array << word
       else
-        new_array
+        new_array.flatten
       end
     end
   end
