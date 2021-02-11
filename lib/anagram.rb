@@ -12,6 +12,7 @@ class Anagram
 
     array.collect do |annagram_word|
       if annagram_word.split("") == word.split("")
+        binding.pry
         new_array << word
         binding.pry
       else
