@@ -16,5 +16,6 @@ class Anagram
     #   w.match(word)
     binding.pry
   end
+  end
 
 end
