@@ -11,13 +11,13 @@ class Anagram
     new_array = []
 
     array.keep_if do |annagram_word|
-      if annagram_word.split("").sort == word.split("").sort
-        binding.pry
-        new_array << word
-        binding.pry
-      else
-        []
-      end
+      # annagram_word.split("").sort == word.split("").sort
+      #   binding.pry
+      #   new_array << word
+      #   binding.pry
+      # else
+      #   []
+      # end
     end
   end
 
