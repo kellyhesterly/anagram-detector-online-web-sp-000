@@ -9,10 +9,10 @@ class Anagram
 
   def match(array)
     word = Anagram.new(word)
+    new_array = word
 
     array.collect do |w|
       w.match(word)
-      word
     binding.pry
     end
   end
