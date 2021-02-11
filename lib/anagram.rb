@@ -8,7 +8,7 @@ class Anagram
   end
 
   def match(array)
-
+    word = self.new(word)
   end
 
 end
