@@ -10,7 +10,7 @@ class Anagram
   def match(array)
     new_array = []
 
-    array.collect do |annagram_word|
+    array.eacg do |annagram_word|
       binding.pry
       if annagram_word.split("") == word.split("")
         binding.pry
