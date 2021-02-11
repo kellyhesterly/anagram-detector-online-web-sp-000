@@ -16,7 +16,7 @@ class Anagram
       else
         []
       end
-      .flatten.uniq
+      .uniq.flatten
     end
   end
 
