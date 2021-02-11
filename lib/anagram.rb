@@ -14,7 +14,7 @@ class Anagram
       w.match?(word)
       word
     binding.pry
-  end
+    end
   end
 
 end
