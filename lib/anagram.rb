@@ -13,8 +13,8 @@ class Anagram
     array.collect do |annagram_word|
       if annagram_word.split("") == word.split("")
         new_array << word
-      # else
-      #   new_array.flatten.uniq
+      else
+        []
       end
     end
   end
