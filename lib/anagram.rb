@@ -16,7 +16,6 @@ class Anagram
       else
         []
       end
-      .uniq
     end
   end
 
