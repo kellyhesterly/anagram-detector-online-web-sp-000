@@ -11,7 +11,6 @@ class Anagram
     new_array = []
 
     array.each do |annagram_word|
-      binding.pry
       if annagram_word.split("") == word.split("")
         binding.pry
         new_array << word
