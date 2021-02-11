@@ -17,7 +17,7 @@ class Anagram
     # array.collect do |w|
     #   w.match(word)
     binding.pry
-  end
+  # end
   end
 
 end
