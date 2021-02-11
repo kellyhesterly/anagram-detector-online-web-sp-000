@@ -10,6 +10,7 @@ class Anagram
   def match(array)
     word = Anagram.new(word)
     word.match(%w(array))
+    binding.pry
   end
 
 end
