@@ -14,6 +14,7 @@ class Anagram
       w.match?(word)
       word
     binding.pry
+    ebd
   end
 
 end
