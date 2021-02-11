@@ -8,7 +8,7 @@ class Anagram
   end
 
   def match(array)
-    binding.pry
+    word = Anagram.new(word)
   end
 
 end
