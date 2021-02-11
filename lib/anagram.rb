@@ -15,7 +15,10 @@ class Anagram
       if word.split("") == new_word.split("")
         new_array << word
       else
-        []
+        new_array
+      end
+    end
+  end
 
     # array.collect do |word|
     #   word.split("") == new_array.split("")
