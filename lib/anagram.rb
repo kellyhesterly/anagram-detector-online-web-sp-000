@@ -8,7 +8,7 @@ class Anagram
   end
 
   def match(array)
-    word = Anagram.new(word)
+    new_word = Anagram.new(new_word)
     new_array = []
 
     array.join(", ") do |word|
