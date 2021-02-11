@@ -8,10 +8,7 @@ class Anagram
   end
 
   def match(array)
-    array.match do |word|
-      word.sort
-      binding.pry
-    end
+    binding.pry
   end
 
 end
