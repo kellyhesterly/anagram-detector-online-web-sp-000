@@ -9,7 +9,9 @@ class Anagram
 
   def match(array)
     word = Anagram.new(word)
-    # word.match(%w(array))
+
+    array.collect do |w|
+      w.match(word)
     binding.pry
   end
 
